@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Dulce y Salado</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kings&family=Leckerli+One&family=Pacifico&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=cake,cookie" />
+
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="header">
+    <img class="logo" src="imagenes/logo.webp" alt="Logo">
+    <h1 class="titulo1"> DULCE Y SALADO</h1>
+      <nav class="menu">
+        <a href="#index.html">Inicio</a>
+        <a href="tartas.html">Tartas</a>
+        <a href="postres.html">Postres</a>
+        <a href="amasijos.html">Bocaditos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+  </header>
+  <section class="entrega">
+  <img src="imagenes/entrega.png" alt="Tiempo de entrega">
+  <h6>Entrega en 24-48 horas</h6>
+   <img src="imagenes/envio.png" alt="Envio gratis">
+  <h6>Envio gratiuto a partir de 45€</h6>
+</section> 
+  <section class="banner">
+  <img src="imagenes/banner.png" alt="Banner Dulce y Salado">
+</section>  
+  <section class="intro">
+  <h2>¿Antojo de algo delicioso?</h2>
+  <p>En Dulce y Salado elaboramos postres y delicias saladas con pasión, sabor y un toque artesanal...</p>
+</section>            
+        <section class="seccion1" >
+          <img src="imagenes/bowl.png" alt="Bowl" class="bowl-lateral">    
+          <img src="imagenes/batidora.png" alt="Bowl" class="bowl-lateral1">
+          <img src="imagenes/espatula.png" alt="Bowl" class="bowl-lateral2">
+          <img src="imagenes/galletas.png" alt="Bowl" class="bowl-lateral3">                   
+                <h2>Los favoritos</h2>
+            <div class="carrusel" id="galeria">
+                <h3 id="titulo"></h3>
+                <img id="foto" src=""/>
+                <div class="btns"><button onclick="imganterior()">Anterior</button> <button onclick="imgsiguiente()">Siguiente</button></div>
+            </div>
+            <div class="indicadores" id="indicador"></div>
+            <div class="btns"> <button onclick="reproducirCarrusel()">▶ Reproducir</button><button onclick="detenerCarrusel()">⏹ Detener</button></div>
+        </section>  
+  <footer class="footer">
+    
+     <nav class="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/tusuariodefacebook" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.twitter.com/tusuariodetwitter" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/tusuariodeinstagram" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/tusuariodelinkedin" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.github.com/tusuariodegithub" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+                        </ul>
+ 
+            </nav>
+    <img src="imagenes/pagoseguroT.jpg" alt="metodos de pago" style="mix-blend-mode: multiply;" >
+    <p>&copy; 2025 DULCE Y SALADO. Todos los derechos reservados.</p>
+      
+  </footer>
+    
+        <div id="ck">     
+            <p>Usamos cookies para mejorar tu experiencia en nuestra web. Al continuar navegando, aceptas el uso de las mismas.</p>
+            <button id="accept-cookies-btn">Aceptar</button>
+            <button id="rechazar-cookies-btn">Rechazar</button>         
+        </div>
+<script src="cookies.js"></script>
+<script src="carrusel.js"></script>
+</body>
+</html>
+
